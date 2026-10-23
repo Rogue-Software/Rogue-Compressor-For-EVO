@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.build-venv/
+build/
+dist/
+portable/
+qa/
+video/
+*.mp4
+*.avi
+*.mov
+*.log

@@ -1,0 +1,46 @@
+THIRD-PARTY NOTICES — Rogue Compressor For EVO 0.9.0-beta.1
+
+Rogue Software application source: MIT (see LICENSE). No experimental R6–R15
+engine or model is included. The unchanged v11.3 application is packaged here.
+
+FFmpeg/FFprobe CLI 9.0.2: GPL version 3 or later in this build, statically
+linked with x264 commit c24e06c2e184345ceb33eb20a15d1024d9fd3497 (GPL v2+).
+Built by Rogue from the accompanying sources; no Gyan binaries are shipped.
+These are separate executables, invoked by the application. Their network
+protocols are disabled. Full licences, source and build instructions accompany
+the release in Rogue_Compressor_Third_Party_Sources_0.9.0-beta.1.zip.
+
+Qt/PySide6/Shiboken6 6.12.0: LGPL v3, with upstream exceptions and third-party
+notices as applicable. Only the QWidget/Core/Gui/Network/OpenGL/Multimedia
+modules and necessary Windows plugins are included. LGPL DLLs are dynamically
+linked and replaceable under _internal/PySide6 and _internal/shiboken6.
+No signature or replacement restriction is imposed. Reverse engineering for
+debugging modifications to LGPL components is permitted. The application
+source is provided to allow rebuilding/relinking with modified libraries.
+Qt source (qtbase, qtmultimedia), PySide/Shiboken source, Qt provisioning/build
+scripts, and original source attribution files accompany this release.
+Qt's separate FFmpeg DLLs are 9.0.1, LGPL 2.1 or later, with zlib 1.3.1.
+They are unmodified official PyPI wheel binaries; matching sources are included.
+
+OpenCV 4.11.0: Apache 2.0 and included third-party notices. The Windows video
+I/O wrapper contains LGPL FFmpeg n4.4.5 plus BSD libvpx/libaom. Its binary Git
+blob matches OpenCV's official d63d7c154c57242bf2283be61166be2bd30ec47e build.
+The corresponding upstream source bundle/build recipes are supplied, verified
+against source commit 02a08baa7b8d330364c35477ba50524db8e4d335. No OpenH264
+runtime DLL is bundled or downloaded by this application.
+
+YuNet face_detection_yunet_2023mar.onnx: MIT; see YuNet-MIT-LICENSE.txt.
+Python 3.14.7: PSF licence and bundled notices. NumPy 2.5.4: BSD and bundled
+third-party licences (including numerical runtime notices). PyInstaller 6.22.3:
+GPL with bootloader exception, allowing distribution of this application.
+LLVM/MinGW-w64 static runtime components: see LLVM-runtime-LICENSE.txt and
+MinGW-w64 notices. Microsoft Visual C++ runtime DLLs are unmodified runtime
+redistributables; see Microsoft-Redist.txt and the official distributable list.
+Windows system components are not included as application libraries.
+
+Complete original licence texts and attribution files are in _internal/licenses.
+The source archive has exact component archives, hashes and build instructions.
+Do not redistribute these binaries without those accompanying materials.
+Upstream: https://ffmpeg.org/ https://www.qt.io/licensing/
+https://github.com/opencv/opencv https://github.com/opencv/opencv_3rdparty
+https://www.python.org/ https://numpy.org/ https://pyinstaller.org/
