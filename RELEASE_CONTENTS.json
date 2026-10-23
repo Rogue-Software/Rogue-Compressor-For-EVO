@@ -1,5 +1,8 @@
 {
   "version": "0.9.0-beta.1",
+  "portable_zip_root_files": [
+    "README.txt"
+  ],
   "payload": [
     {
       "file": "_internal/_asyncio.pyd",
@@ -2593,8 +2596,8 @@
     },
     {
       "file": "README.txt",
-      "bytes": 4508,
-      "sha256": "28cc036f324ee6b0663c50422f3c7bd7509e8d5e46b7bef4739ab3d4ca9e1999"
+      "bytes": 12034,
+      "sha256": "3c476f2416acfda0a4c80ddbc1805beb584f0ae32bdb11de9c7d10ca074ef378"
     },
     {
       "file": "RogueCompressorForEVO.exe",

@@ -18,3 +18,8 @@ If uploading manually, use the exact files in this staging directory's artifacts
 folder, compare SHA256SUMS.txt and never upload the qa, build, source-archives,
 research, video, face images or caches directories. The public source repository
 is an explicit allowlist of application code/assets/model, notices and docs.
+
+The current guide update is staged in 0.9.0-beta.1-guide/artifacts. Use the
+checksums from the current repository and draft; the earlier final staging files
+are preserved historical candidates. README.txt must remain beside the installed
+EXE and at the portable ZIP root. The repository and prerelease remain private/draft.
