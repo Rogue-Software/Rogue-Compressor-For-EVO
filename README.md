@@ -97,5 +97,6 @@ No R6–R15 experimental engine, private test footage or research data is includ
 
 The corrected [licensing verification](LICENSING_VERIFICATION.md) records the
 Python incorporated-software notice fixes, dependency audit and installed-package
-checks. Application binaries are unchanged; the draft remains unpublished pending
-final approval.
+checks. Application binaries are unchanged. [v0.9.0-beta.1 is now available as a
+public prerelease](https://github.com/Rogue-Software/Rogue-Compressor-For-EVO/releases/tag/v0.9.0-beta.1).
+See [publication verification](PUBLICATION_STATUS.md) for the public download checks.
