@@ -1,6 +1,6 @@
 # Rogue Compressor For EVO
 
-**Free Windows video compressor for evolutionary.org â€” Rogue Software**
+**Free Windows video compressor for evolutionary.org — Rogue Software**
 
 Version **0.9.0-beta.1**, Windows 10/11 x64. Compress a workout clip of up to
 60 seconds to an MP4 below 10 MB, with audio and portrait orientation retained.
@@ -93,4 +93,4 @@ licences. See THIRD_PARTY_NOTICES.txt and LICENSING_STATUS.md. Every binary
 release must be accompanied by Rogue_Compressor_Third_Party_Sources_0.9.0-beta.1.zip
 on the same release, including exact FFmpeg/x264, Qt/PySide and OpenCV wrapper
 sources, build recipes and licence texts. Replaceable LGPL DLLs are not locked.
-No R6â€“R15 experimental engine, private test footage or research data is included.
+No R6–R15 experimental engine, private test footage or research data is included.

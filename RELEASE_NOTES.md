@@ -1,7 +1,7 @@
-# v0.9.0-beta.1 â€” public beta candidate
+# v0.9.0-beta.1 — public beta candidate
 
 Rogue Software's free Windows compressor for evolutionary.org. Existing v11.3
-application and tracker; no experimental R6â€“R15 integration or tracker changes.
+application and tracker; no experimental R6–R15 integration or tracker changes.
 
 - Up to 60-second local MP4 compression below 10 MB; audio and portrait support.
 - Optional experimental masking, manual head selection and frame corrections.

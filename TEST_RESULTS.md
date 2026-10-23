@@ -1,4 +1,4 @@
-# Final-package test results â€” 0.9.0-beta.1
+# Final-package test results — 0.9.0-beta.1
 
 Executed 2026-10-23 on the existing Windows 11 Home x64 development PC,
 Ryzen 7 5800X. This is existing-host testing, not a fresh Windows certification.
@@ -18,11 +18,11 @@ user-tested source; changes concern packaging, dependencies and documentation.
 | v11.3 review | Entire 924-frame source rendered; playback, seeking and single-frame stepping executed |
 | Frame correction | Added/saved correction at zero-based frame 815; larger black rectangle present in actual export at that frame |
 | Compression | Full BB application export: 9,029,513 bytes, below 10,000,000 bytes |
-| Orientation | H.264 output decoded at 1080Ã—1920, upright |
+| Orientation | H.264 output decoded at 1080×1920, upright |
 | Audio | AAC retained; input/output mono 8 kHz comparison correlation 0.988477; measured lag 0.0 s. No separate human listening test claimed |
 | Duration | 923 output frames vs 924 source frames, existing shortest-stream one-frame tail trim disclosed |
 | Maximum privacy | Unchanged source forces Maximum internally when masking is enabled; GUI masked review/export executed |
-| Facial exposure inspection | Actual exported contact sheet and all head crops 800â€“922 inspected; visible facial features at 910â€“922 confirmed. Frame 815 correction applied. No all-frame or zero-exposure claim |
+| Facial exposure inspection | Actual exported contact sheet and all head crops 800–922 inspected; visible facial features at 910–922 confirmed. Frame 815 correction applied. No all-frame or zero-exposure claim |
 | Model/data exclusion | Only existing 232,589-byte MIT YuNet model. No experimental models, test clips, face images, research data or caches in release payload |
 | Preservation | 116 previously frozen source/release/research file hashes matched |
 | Source obligations | Exact source archives, configuration/build recipes and original notices assembled as required accompanying source ZIP; Qt DLL provenance and OpenCV wrapper Git-blob match verified |
