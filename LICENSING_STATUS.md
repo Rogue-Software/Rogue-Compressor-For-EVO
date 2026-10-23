@@ -37,3 +37,14 @@ The release licence/source-distribution packaging obligations identified during
 this review are addressed by these accompanying assets. Keep those assets and
 notices intact on publication and redistribution. Do not substitute old large
 Gyan builds or unrelated development models without a new component review.
+
+
+## Corrected final verification
+
+The intervening publication audit identified missing Python incorporated-software
+notices. That failed report remains preserved. The current licensing snapshot
+resolves libmpdec/Expat and adds the complete Python/native notice coverage,
+exact OpenSSL/libffi/XZ materials and explicit Qt LicenseFile targets. See
+[LICENSING_VERIFICATION.md](LICENSING_VERIFICATION.md) for actual evidence and
+executed packaging checks. No known mandatory requirement remains unresolved
+in this reviewed candidate. The release is still private/draft pending approval.

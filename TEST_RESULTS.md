@@ -83,3 +83,11 @@ files, including every executable, runtime DLL, model and application file, are
 unchanged. Previous export/audio/interface results remain applicable; the full
 video workflow was not unnecessarily rerun for this text-only change. Previous
 artifacts, checksums and reports remain preserved in the earlier staging folder.
+
+## Licensing-only package revision
+
+The missing Python notices and broader licence materials were corrected without
+changing any of the 129 binaries/model files. All 584 installed payload hashes
+passed; complete notices and exact-version source notices were checked after
+installation. Installer and uninstall exited 0; portable/source ZIP CRC and
+internal hashes passed. See LICENSING_VERIFICATION.md for the current record.

@@ -94,3 +94,8 @@ release must be accompanied by Rogue_Compressor_Third_Party_Sources_0.9.0-beta.1
 on the same release, including exact FFmpeg/x264, Qt/PySide and OpenCV wrapper
 sources, build recipes and licence texts. Replaceable LGPL DLLs are not locked.
 No R6–R15 experimental engine, private test footage or research data is included.
+
+The corrected [licensing verification](LICENSING_VERIFICATION.md) records the
+Python incorporated-software notice fixes, dependency audit and installed-package
+checks. Application binaries are unchanged; the draft remains unpublished pending
+final approval.

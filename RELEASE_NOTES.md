@@ -29,3 +29,8 @@ approval; preparation as a private repository/draft does not constitute release.
 A beginner-friendly README.txt is included beside the installed EXE and at the
 portable ZIP top level, with verified interface steps and troubleshooting. The
 GitHub homepage includes How to Use and a link to the complete guide.
+
+Licensing materials corrected: complete Expat/libmpdec notices, Python native
+component notices and additional Qt licence-file targets are now bundled. Existing
+application binaries are unchanged. The required source archive is expanded;
+README.txt is also supplied as a separate download. See LICENSING_VERIFICATION.md.

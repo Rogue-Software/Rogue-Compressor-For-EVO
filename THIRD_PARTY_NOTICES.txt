@@ -36,7 +36,8 @@ GPL with bootloader exception, allowing distribution of this application.
 LLVM/MinGW-w64 static runtime components: see LLVM-runtime-LICENSE.txt and
 MinGW-w64 notices. Microsoft Visual C++ runtime DLLs are unmodified runtime
 redistributables; see Microsoft-Redist.txt and the official distributable list.
-Windows system components are not included as application libraries.
+Microsoft UCRT and API-set redistributable DLLs are also bundled; see the
+Microsoft UCRT deployment reference. Windows 10/11 use their system UCRT.
 
 Complete original licence texts and attribution files are in _internal/licenses.
 The source archive has exact component archives, hashes and build instructions.
@@ -44,3 +45,145 @@ Do not redistribute these binaries without those accompanying materials.
 Upstream: https://ffmpeg.org/ https://www.qt.io/licensing/
 https://github.com/opencv/opencv https://github.com/opencv/opencv_3rdparty
 https://www.python.org/ https://numpy.org/ https://pyinstaller.org/
+
+ADDITIONAL INCORPORATED-SOFTWARE NOTICES
+
+Python's _decimal.pyd contains libmpdec 4.0.0 and pyexpat.pyd contains Expat
+2.8.2. Their complete notices are retained verbatim below, together with the
+official Python 3.14 licensing-documentation notices. The exact-version files
+and the complete Python documentation licence blocks are also supplied under
+_internal/licenses/Python-incorporated, including the newer upstream copyright
+lines missing from the Python documentation's historical notice blocks.
+
+The full CPython 3.14.7 source is supplied in the corresponding-source ZIP.
+Native-source notice comments, including HACL*/KreMLin's MIT notices for built-in
+hash functions, are preserved in CPython-3.14.7-native-source-notices.txt.
+Other Python incorporated-software notices include cfuhash, dtoa, SipHash,
+Mersenne Twister, mimalloc, Unicode, zstandard, asyncio and GUS. Component
+licences apply to those components; including extra upstream notices does not
+mean every optional component or test suite is part of the application.
+
+Python's OpenSSL DLLs are 3.5.7; the additionally collected OpenSSL x64 DLLs
+are 3.6.4. Both are Apache-2.0. Their original licence files are supplied;
+their upstream trees contain no separate NOTICE file. Copyright 1998-2026
+The OpenSSL Authors. All rights reserved. No application networking is required.
+
+Python's libffi 3.4.4 MIT notice and XZ 5.2.5 COPYING are included. The latter
+states that liblzma is public domain; XZ command-line utilities are not bundled.
+The existing Python Windows licence includes bzip2 1.0.8 and zstd notices.
+
+Portions of this software are copyright © 1996-2026 The FreeType Project
+(www.freetype.org). All rights reserved. Qt's FreeType, HarfBuzz, PCRE2,
+libjpeg/libpng, zlib and other attribution/licence files are retained under
+licenses/upstream/qtbase-everywhere-src-6.12.0. Third-party licence choices
+do not impose restrictions on replacing or debugging LGPL libraries.
+
+Inno Setup's original installed licence is included for completeness. Its terms
+permit distribution of generated setup executables without a mandatory credit.
+The application MIT licence does not supersede any third-party runtime terms.
+
+VERBATIM: Python 3.14 documentation — libmpdec
+Source: https://docs.python.org/3.14/license.html#libmpdec
+
+Copyright (c) 2008-2020 Stefan Krah. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+
+
+VERBATIM: Python 3.14 documentation — Expat
+Source: https://docs.python.org/3.14/license.html#expat
+
+Copyright (c) 1998, 1999, 2000 Thai Open Source Software Center Ltd
+                               and Clark Cooper
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+VERBATIM EXACT-VERSION UPSTREAM FILE: mpdecimal-4.0.0-COPYRIGHT.txt
+
+Copyright (c) 2008-2024 Stefan Krah. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+
+
+VERBATIM EXACT-VERSION UPSTREAM FILE: expat-2.8.2-COPYING.txt
+
+Copyright (c) 1998-2000 Thai Open Source Software Center Ltd and Clark Cooper
+Copyright (c) 2001-2025 Expat maintainers
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
